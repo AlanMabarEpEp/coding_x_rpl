@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 1000</title>
+	<style type="text/css">
+		body {
+			background-color: yellow;
+		}
+		p {
+			color:black;
+		}
+		button {
+			background-color: pink;
+			border-radius: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<button onclick="klik()">tambah</button>
+	<p id="teks">0</p>
+	<p id="tekss"></p>
+    <button onclick="klik2()">kurang</button>
+    <button onclick="klik3()">reset</button>
+	<script type="text/javascript">
+		let teksbaru = 0
+
+		function klik() {
+			teksbaru += 1000000000000;
+			document.getElementById('teks').
+			   innerHTML = teksbaru
+			document.getElementById('tekss').
+			   innerHTML = "TAMBAH"
+			}
+	    function klik2() {
+	    	teksbaru -= 100000000000;
+	    	document.getElementById('teks').
+	    	innerHTML = teksbaru
+	    	document.getElementById('tekss').
+			   innerHTML = "KURANG"
+	     }
+         function klik3() {
+         	teksbaru = 0
+         	document.getElementById('teks').
+         	innerHTML = teksbaru;
+         	document.getElementById('tekss').
+			   innerHTML = "RESET"
+         }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+let a = 50
+let b = 20
+let c = a*b
+console.log(c<b)
+console.log(c==c)
+console.log(c>a)
+console.log(a==a)
+console.log(a+b)
+console.log(a*b)
+console.log(a||b)
+console.log(true || false)
+console.log(false || true)
+console.log(true || true)
+console.log(false || false)
+console.log(!false)
+console.log(!false)
+console.log(false + true)
+console.log(true + true)
+console.log(false + 200)
+console.log(1 || 0)
+console.log(1 && 0)
+console.log(1 && 1)
+console.log(!150)
+console.log(a + b * a)
+console.log(a = 10)
+console.log(b + 3)
+console.log(a += b)
+console.log(a %= b)
+for (var i = 0; i < 50000000000; i++) {
+	console.log(i + " " + "shwfed327e31236219836218362183218368yfdkug68756889896HJGDFFSER467457698JHYUTIULHJFJHFJHFJFLFFUFYHqdhqlre7235u32h52kl3525j23;j2-0''l;;';'k,vxcg/;/;/;/;/;/;//;'['['[[''['")
+}
